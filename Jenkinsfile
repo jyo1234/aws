@@ -26,4 +26,8 @@ steps{
 }
       }
    }
+   post { 
+          always { 
+                cleanWs()
+          }}
 }
