@@ -11,7 +11,7 @@ pipeline {
             {
             java -jar /home/ec2-user/jyostna/jenkins-cli.jar -s "http://ec2-3-16-42-248.us-east-2.compute.amazonaws.com:8080/" install-plugin stashNotifier -deploy
             }
-            fi*/'''
+            fi*/
          }
       }
       stage(publish){
